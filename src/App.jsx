@@ -1,5 +1,4 @@
-import { useState, useEffect, useCallback } from “react”;
-
+import { useState, useEffect, useCallback } from "react";
 // ─── TRIP DATA (read-only, same for everyone) ─────────────────────────────────
 const TRIP_LEGS = [
 { id: “l1”, date: “2026-08-03”, from: “Waterloo”, to: “Ottawa”, distanceKm: 490, type: “driving”, notes: “Head east on Hwy 401 then north. Start of the adventure!”,
